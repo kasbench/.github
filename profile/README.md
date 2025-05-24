@@ -20,8 +20,8 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 | Portfolio Optimizer       | Go or Python     |        |             |                 | CPU-intensive Golang                             |
 | Balance Service           | Java/Vitess      |        |             |                 | Database-intensive                               |
 | Order Generation Service  | Python           |        |             |                 | CPU-intensive Python                             |
-| Order Service             | Java/PostgreSQL  | Done   |             |                 | For microservice chain depth                     |
-| Trade Service             | Java/PostgreSQL  | Done   |             |                 | For microservice chain depth                     |
+| Order Service             | Java/PostgreSQL  | Done   |   Done          |                 | For microservice chain depth                     |
+| Trade Service             | Java/PostgreSQL  | Done   |     Done        |                 | For microservice chain depth                     |
 | Execution Service         | Java/PostgreSQL  | Done       |             |                 | Asynchronous (producer)                          |
 | FIX Engine               | Go               |  Done      |             |                 | Stochastic, asynchronous (consumer and producer) |
 | Real-Time Pricing Service | Java/PostgreSQL  | Done   |             |                 | Stochastic                                       |
