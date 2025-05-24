@@ -23,7 +23,7 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 | Order Service             | Java/PostgreSQL  | Done   |   Done          |                 | For microservice chain depth                     |
 | [Trade Service](https://github.com/kasbench/globeco-trade-service)             | Java/PostgreSQL  | Done   |     Done        |                 | For microservice chain depth                     |
 | [Execution Service](https://github.com/kasbench/globeco-execution-service)         | Java/PostgreSQL  | Done       |             |                 | Asynchronous (producer)                          |
-| FIX Engine               | Go               |  Done      |             |                 | Stochastic, asynchronous (consumer and producer) |
+| [FIX Engine](https://github.com/kasbench/globeco-fix-engine)               | Go               |  Done      |             |                 | Stochastic, asynchronous (consumer and producer) |
 | Real-Time Pricing Service | Java/PostgreSQL  | Done   |             |                 | Stochastic                                       |
 | Security Service          | Python/MongoDB   | Done   |             |                 | For microservice chain depth                     |
 | Allocation Service        | Go               |        |             |                 | For microservice chain depth                     |
