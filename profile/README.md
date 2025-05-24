@@ -16,16 +16,16 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 
 | Microservice              | Language         | Coding | Integration | Instrumentation | Notes                                            |
 | ------------------------- | ---------------- | ------ | ----------- | --------------- | ------------------------------------------------ |
-| Portfolio Service         | Python/MongoDB   | Done   |             |                 | CPU-light                                        |
+| [Portfolio Service](https://github.com/kasbench/globeco-portfolio-service)         | Python/MongoDB   | Done   |             |                 | CPU-light                                        |
 | Portfolio Optimizer       | Go or Python     |        |             |                 | CPU-intensive Golang                             |
 | Balance Service           | Java/Vitess      |        |             |                 | Database-intensive                               |
 | Order Generation Service  | Python           |        |             |                 | CPU-intensive Python                             |
-| Order Service             | Java/PostgreSQL  | Done   |   Done          |                 | For microservice chain depth                     |
+| [Order Service](https://github.com/kasbench/globeco-order-service)             | Java/PostgreSQL  | Done   |   Done          |                 | For microservice chain depth                     |
 | [Trade Service](https://github.com/kasbench/globeco-trade-service)             | Java/PostgreSQL  | Done   |     Done        |                 | For microservice chain depth                     |
-| [Execution Service](https://github.com/kasbench/globeco-execution-service)         | Java/PostgreSQL  | Done       |             |                 | Asynchronous (producer)                          |
-| [FIX Engine](https://github.com/kasbench/globeco-fix-engine)               | Go               |  Done      |             |                 | Stochastic, asynchronous (consumer and producer) |
-| Real-Time Pricing Service | Java/PostgreSQL  | Done   |             |                 | Stochastic                                       |
-| Security Service          | Python/MongoDB   | Done   |             |                 | For microservice chain depth                     |
+| [Execution Service](https://github.com/kasbench/globeco-execution-service)         | Java/PostgreSQL  | Done       |   Done          |                 | Asynchronous (producer)                          |
+| [FIX Engine](https://github.com/kasbench/globeco-fix-engine)               | Go               |  Done      |   Done          |                 | Stochastic, asynchronous (consumer and producer) |
+| [Real-Time Pricing Service](https://github.com/kasbench/globeco-pricing-service) | Java/PostgreSQL  | Done   |             |                 | Stochastic                                       |
+| [Security Service](https://github.com/kasbench/globeco-security-service)          | Python/MongoDB   | Done   |             |                 | For microservice chain depth                     |
 | Allocation Service        | Go               |        |             |                 | For microservice chain depth                     |
 | Confirmation Service      | Go               |        |             |                 | Asynchronous (consumer)                          |
 | Partner Portal            | JavaScript/React |        |             |                 | Not needed initially                             |
