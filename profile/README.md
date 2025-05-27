@@ -27,7 +27,7 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 | [Real-Time Pricing Service](https://github.com/kasbench/globeco-pricing-service) | Java/PostgreSQL  | Done   |      Done       |                 | Stochastic                                       |
 | [Security Service](https://github.com/kasbench/globeco-security-service)          | Python/MongoDB   | Done   |   Done          |                 | For microservice chain depth                     |
 | Allocation Service        | Go               |        |             |                 | For microservice chain depth                     |
-| Confirmation Service      | Go               |        |             |                 | Asynchronous (consumer)                          |
+| [Confirmation Service](https://github.com/kasbench/globeco-confirmation-service)      | Go               | In progress       |             |                 | Asynchronous (consumer)                          |
 | Partner Portal            | JavaScript/React |        |             |                 | Not needed initially                             |
 | Company Intranet          | JavaScript/React |        |             |                 | UI                                               |
 | Benchmark Coordinator     | Go               |        |             |                 | Not needed initially                             |
