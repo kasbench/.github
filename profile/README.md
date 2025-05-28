@@ -1,6 +1,7 @@
 # KASBench: A Benchmark for Kubernetes Autoscaling
-
+<img src="../images/kasbench_logo_gemini_generated_Image.png" alt="kasbench logo" width="100">
 <img src="../images/globeco-logo.png" alt="Logo" width="100">
+
 KASBench is a new benchmark under development for Kubernetes Autoscaling. GlobeCo is a suite of applications designed to subject autoscalers to a variety of real-world conditions including long call chains, heterogeneous languages, multiple types of stateful data storage, synchronous and asynchronous calling patterns, LLM inferencing, CPU-intensive service, network-intensive services, and disk IO-intensive services.
 
 
@@ -17,7 +18,7 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 | Microservice              | Language         | Coding | Integration | Instrumentation | Notes                                            |
 | ------------------------- | ---------------- | ------ | ----------- | --------------- | ------------------------------------------------ |
 | [Portfolio Service](https://github.com/kasbench/globeco-portfolio-service)         | Python/MongoDB   | Done   |             |                 | CPU-light                                        |
-| Portfolio Optimizer       | Go or Python     |        |             |                 | CPU-intensive Golang                             |
+| Portfolio Optimizer       | Go or Python     | In progress       |             |                 | CPU-intensive Golang                             |
 | Balance Service           | Java/Vitess      |        |             |                 | Database-intensive                               |
 | Order Generation Service  | Python           |        |             |                 | CPU-intensive Python                             |
 | [Order Service](https://github.com/kasbench/globeco-order-service)             | Java/PostgreSQL  | Done   |   Done          |                 | For microservice chain depth                     |
