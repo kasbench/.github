@@ -14,7 +14,7 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 
 | Microservice              | Language         | Coding | Integration | Instrumentation | Notes                                            |
 | ------------------------- | ---------------- | ------ | ----------- | --------------- | ------------------------------------------------ |
-| [Portfolio Service](https://github.com/kasbench/globeco-portfolio-service)         | Python/MongoDB   | Done   |             |                 | CPU-light                                        |
+| [Portfolio Service](https://github.com/kasbench/globeco-portfolio-service)         | Python/MongoDB   | Done   |    Done         |                 | CPU-light                                        |
 | Portfolio Optimizer       | Go or Python     |        |             |                 | CPU-intensive Golang                             |
 | [Portfolio Accounting Service](https://github.com/kasbench/globeco-portfolio-accounting-service) | Go | In progress | | | CPU and IO intensive
 | Balance Service           | Java/Vitess      |        |             |                 | Database-intensive                               |
