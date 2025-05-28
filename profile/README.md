@@ -1,6 +1,5 @@
 # KASBench: A Benchmark for Kubernetes Autoscaling
-<img src="../images/globeco-logo.png" alt="Logo" width="100">
-KASBench is a new benchmark under development for Kubernetes Autoscaling. GlobeCo is a suite of applications designed to subject autoscalers to a variety of real-world conditions including long call chains, heterogeneous languages, multiple types of stateful data storage, synchronous and asynchronous calling patterns, LLM inferencing, CPU-intensive service, network-intensive services, and disk IO-intensive services.
+<img src="../images/globeco-logo.png" alt="Logo" width="100"> KASBench is a new benchmark under development for Kubernetes Autoscaling. GlobeCo is a suite of applications designed to subject autoscalers to a variety of real-world conditions including long call chains, heterogeneous languages, multiple types of stateful data storage, synchronous and asynchronous calling patterns, LLM inferencing, CPU-intensive service, network-intensive services, and disk IO-intensive services.
 
 
 
