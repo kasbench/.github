@@ -22,7 +22,7 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 | [Trade Service](https://github.com/kasbench/globeco-trade-service)             | Java/PostgreSQL  | Done   |     Done        |                 | For microservice chain depth                     |
 | [Execution Service](https://github.com/kasbench/globeco-execution-service)         | Java/PostgreSQL  | Done       |   Done          |                 | Asynchronous (producer)                          |
 | [FIX Engine](https://github.com/kasbench/globeco-fix-engine)               | Go               |  Done      |   Done          |                 | Stochastic, asynchronous (consumer and producer) |
-| [Real-Time Pricing Service](https://github.com/kasbench/globeco-pricing-service) | Java/PostgreSQL  | Done   |      Done       |                 | Stochastic                                       |
+| [Real-Time Pricing Service](https://github.com/kasbench/globeco-pricing-service) | Java/PostgreSQL  | Done   |      Done       |      Done           | Stochastic                                       |
 | [Security Service](https://github.com/kasbench/globeco-security-service)          | Python/MongoDB   | Done   |   Done          |   Done              | For microservice chain depth                     |
 | [Allocation Service](https://github.com/kasbench/globeco-allocation-service)        | Go               |  Done      | Done           |                 | For microservice chain depth                     |
 | [Confirmation Service](https://github.com/kasbench/globeco-confirmation-service)      | Go               | Done      |  Done            |                 | Asynchronous (consumer)                          |
@@ -30,3 +30,5 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 | [Company Portal](https://github.com/kasbench/globeco-portfolio-management-portal)          | JavaScript/React |  Done      |  Done           |                 | UI                                               |
 | Benchmark Coordinator     | Go               |        |             |                 | Not needed initially                             |
 | [Debug Tools](https://github.com/kasbench/globeco-debug-tools) | Docker | Done| Done | N/A | Bastion pod for debugging
+| [Development Resources](https://github.com/kasbench/globeco-development-resources) | N/A | N/A | N/A | N/A | Guides, rules, and prompts |
+---
