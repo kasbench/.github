@@ -17,8 +17,8 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 | [Portfolio Service](https://github.com/kasbench/globeco-portfolio-service)         | Python/MongoDB   | Done   |    Done         |  Done               | CPU-light                                        |
 | [Portfolio Optimizer](https://github.com/kasbench/globeco-portfolio-optimizer)       | Go     |        |             |                 | CPU-intensive Golang. gRPC                            |
 | [Portfolio Accounting Service](https://github.com/kasbench/globeco-portfolio-accounting-service) | Go/Postgres or YugabyteDB | Done | Done| Done |CPU and Database-intensive, batch CLI                           |
-| [Order Generation Service](https://github.com/kasbench/globeco-order-generation-service)  | Python/MongoDB           | Done       | Done            |                 | CPU-intensive Python                             |
-| [Order Service](https://github.com/kasbench/globeco-order-service)             | Java/PostgreSQL  | Done   |   Done          |    In Progress             | For microservice chain depth                     |
+| [Order Generation Service](https://github.com/kasbench/globeco-order-generation-service)  | Python/MongoDB           | Done       | Done            |      In Progress          | CPU-intensive Python                             |
+| [Order Service](https://github.com/kasbench/globeco-order-service)             | Java/PostgreSQL  | Done   |   Done          |    Done             | For microservice chain depth                     |
 | [Trade Service](https://github.com/kasbench/globeco-trade-service)             | Java/PostgreSQL  | Done   |     Done        |         Done        | For microservice chain depth                     |
 | [Execution Service](https://github.com/kasbench/globeco-execution-service)         | Java/PostgreSQL  | Done       |   Done          |   Done              | Asynchronous (producer)                          |
 | [FIX Engine](https://github.com/kasbench/globeco-fix-engine)               | Go               |  Done      |   Done          |                 | Stochastic, asynchronous (consumer and producer) |
@@ -27,7 +27,7 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 | [Allocation Service](https://github.com/kasbench/globeco-allocation-service)        | Go               |  Done      | Done           |                 | For microservice chain depth                     |
 | [Confirmation Service](https://github.com/kasbench/globeco-confirmation-service)      | Go               | Done      |  Done            |                 | Asynchronous (consumer)                          |
 | Partner Portal            | JavaScript/React |        |             |                 | Not needed initially                             |
-| [Company Portal](https://github.com/kasbench/globeco-portfolio-management-portal)          | JavaScript/React |  Done      |  Done           |                 | UI                                               |
+| [Company Portal](https://github.com/kasbench/globeco-portfolio-management-portal)          | TypeScript/React |  Done      |  Done           |                 | UI                                               |
 | Benchmark Coordinator     | Go               |        |             |                 | Not needed initially                             |
 | [Debug Tools](https://github.com/kasbench/globeco-debug-tools) | Docker | Done| Done | N/A | Bastion pod for debugging
 | [Development Resources](https://github.com/kasbench/globeco-development-resources) | N/A | N/A | N/A | N/A | Guides, rules, and prompts |
