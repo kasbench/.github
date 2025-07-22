@@ -24,11 +24,12 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 | [FIX Engine](https://github.com/kasbench/globeco-fix-engine)               | Go               |  Done      |   Done          |     Done            | Stochastic, asynchronous (consumer and producer) |
 | [Real-Time Pricing Service](https://github.com/kasbench/globeco-pricing-service) | Java/PostgreSQL  | Done   |      Done       |      Done           | Stochastic                                       |
 | [Security Service](https://github.com/kasbench/globeco-security-service)          | Python/MongoDB   | Done   |   Done          |   Done              | For microservice chain depth                     |
-| [Allocation Service](https://github.com/kasbench/globeco-allocation-service)        | Go               |  Done      | Done           |                 | For microservice chain depth                     |
-| [Confirmation Service](https://github.com/kasbench/globeco-confirmation-service)      | Go               | Done      |  Done            |          In Progress       | Asynchronous (consumer)                          |
+| [Allocation Service](https://github.com/kasbench/globeco-allocation-service)        | Go               |  Done      | Done           |      Done           | For microservice chain depth                     |
+| [Confirmation Service](https://github.com/kasbench/globeco-confirmation-service)      | Go               | Done      |  Done            |          Done       | Asynchronous (consumer)                          |
 | Partner Portal            | JavaScript/React |        |             |                 | Not needed initially                             |
-| [Company Portal](https://github.com/kasbench/globeco-portfolio-management-portal)          | TypeScript/React |  Done      |  Done           |     In Progress            | UI                                               |
+| [Company Portal](https://github.com/kasbench/globeco-portfolio-management-portal)          | TypeScript/React |  Done      |  Done           |     Done            | UI                                               |
 | Benchmark Coordinator     | Go               |        |             |                 | Not needed initially                             |
 | [Debug Tools](https://github.com/kasbench/globeco-debug-tools) | Docker | Done| Done | N/A | Bastion pod for debugging
 | [Development Resources](https://github.com/kasbench/globeco-development-resources) | N/A | N/A | N/A | N/A | Guides, rules, and prompts |
+| [Observability Configuration](https://github.com/kasbench/globeco-observability) |N/A| In Progress | N/A | N/A | Configuration for Prometheus, Jaeger, Grafana and the Open\-Telemetry Collector|
 ---
