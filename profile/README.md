@@ -28,7 +28,7 @@ Potfolio management is one application in the GlobeCo suite.  It is a simulated 
 | [Confirmation Service](https://github.com/kasbench/globeco-confirmation-service)      | Go               | Done      |  Done            |          Done       | Asynchronous (consumer)                          |
 | Partner Portal            | JavaScript/React |        |             |                 | Not needed initially                             |
 | [Company Portal](https://github.com/kasbench/globeco-portfolio-management-portal)          | TypeScript/React |  Done      |  Done           |     Done            | UI                                               |
-| Benchmark Coordinator     | Go               |        |             |                 | Not needed initially                             |
+| [Benchmark Coordinator](https://github.com/kasbench/globeco-benchmark-coordinator)     | Python               | In Progress       |             |                 |   Includes load runner                           |
 | [Debug Tools](https://github.com/kasbench/globeco-debug-tools) | Docker | Done| Done | N/A | Bastion pod for debugging
 | [Development Resources](https://github.com/kasbench/globeco-development-resources) | N/A | N/A | N/A | N/A | Guides, rules, and prompts |
 | [Observability Configuration](https://github.com/kasbench/globeco-observability) |N/A| Done | N/A | N/A | Configuration for Prometheus, Jaeger, Grafana and the Open\-Telemetry Collector|
